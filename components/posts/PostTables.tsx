@@ -48,7 +48,7 @@ const PostTables = ({ limit, title }: PostTableProps) => {
                                 {post.date}
                             </TableCell>
                             <TableCell className="text-right">
-                                <Link href={`/posts/${post.id}`}>
+                                <Link href={`/posts/edit/${post.id}`}>
                                     <Button>View</Button>
                                 </Link>
                             </TableCell>

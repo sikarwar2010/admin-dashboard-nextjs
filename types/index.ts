@@ -25,3 +25,10 @@ export interface PostTableProps {
     limit?: number
     title?: string
 }
+
+export interface AnalyticsItem {
+    name: string;
+    uv: number;
+    pv: number;
+    amt: number;
+}
